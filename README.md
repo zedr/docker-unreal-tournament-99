@@ -3,6 +3,10 @@
 Having trouble running UT99 on modern Linux distributions? Now you can run this
 classic game using Docker and Wine, preserving it for future generations!
 
+## Rationale
+
+Wine emulation is the generally preferred way of running UT on Linux. It's easier to setup than the native build and provides a better experience. However, recent versions of popular Linux distributions have dropped support for 32 bit binaries, and getting it back has been a pain in the neck for myself and several other users on the Web.
+
 ## Pre-requisites
 
  * Docker
