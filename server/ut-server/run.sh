@@ -4,7 +4,6 @@ COMMAND=/bin/bash
 
 xhost + # allow connections to X server
 docker run \
-    --rm \
     --privileged \
     -d \
     -p 7777-7781:7777-7781/udp \
