@@ -13,4 +13,4 @@ RUN chmod +x /opt/ut-server/ucc
 EXPOSE 7777-7781
 EXPOSE 27900
 
-CMD ./opt/ut-server/ucc server
+CMD ./opt/ut-server/ucc server -nohomedir
