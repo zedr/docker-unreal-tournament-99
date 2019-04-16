@@ -7,7 +7,7 @@ RUN echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula selec
 RUN apt-get install -y mesa-utils
 RUN apt-get install -y xserver-xorg-video-all
 RUN apt-get install ttf-mscorefonts-installer -y
-RUN apt-get install wine -y
+RUN apt-get install wine-stable -y
 
 RUN mkdir -p /mnt/ut99
 
