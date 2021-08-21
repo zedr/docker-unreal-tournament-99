@@ -1,6 +1,7 @@
 FROM i386/ubuntu
 
 ENV WINEARCH "win32"
+ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update
 RUN echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections
